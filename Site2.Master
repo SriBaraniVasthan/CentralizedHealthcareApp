@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="HospitalAdministration.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+     
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+  
+        <div>
+            <img src="Images/download.png" style="width: 285px; height: 191px" /><img src="ImageHome/4.jpg" style="height: 296px; width: 998px; margin-left: 42px;" />
+            <%--<h1 style="height: 44px; width: 616px; margin-left: 408px; margin-top: 2px; margin-bottom: 1px"> Healthcare Management Portal</h1>--%>
+       
+            <asp:Menu ID="Menu1" runat="server" BackColor="#0099FF" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Height="40px" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="16px" Width="100%" >
+                <Items>
+                    
+                     <asp:MenuItem NavigateUrl="~/Doctor.aspx" Text="Send Test to Lab" Value="Send Test to Lab"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/LabRequest.aspx" Text="Lab Request records" Value="Lab Request records"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/LabResults.aspx" Text="Lab Results" Value="Lab Results"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/RatingHistory.aspx" Text="Rating History" Value="Rating History"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Log out" Value="Log out"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#0066FF" Height="40px" />
+            </asp:Menu>
+        </div>
+         <div>
+           <h2>Welcome&nbsp;<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>!&nbsp;</h2>   
+             <asp:Label ID="Label2" runat="server" Text="Label" Height="24px" style="margin-left: 1032px" Width="261px"></asp:Label>         
+      </div> 
+       
+            
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <br /> <br />
+            <footer>
+<h4>© 2017 Apollo Hospitals Enterprise Ltd. All Rights Reserved. </h4>
+       </footer>
+  
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\steve\Desktop\HospitalAdministration\HospitalAdministration\bin\HospitalAdministration.dll.config
+C:\Users\steve\Desktop\HospitalAdministration\HospitalAdministration\bin\HospitalAdministration.dll
+C:\Users\steve\Desktop\HospitalAdministration\HospitalAdministration\bin\HospitalAdministration.pdb
+C:\Users\steve\Desktop\HospitalAdministration\HospitalAdministration\obj\Debug\HospitalAdministration.csprojResolveAssemblyReference.cache
+C:\Users\steve\Desktop\HospitalAdministration\HospitalAdministration\obj\Debug\HospitalAdministration.dll
+C:\Users\steve\Desktop\HospitalAdministration\HospitalAdministration\obj\Debug\HospitalAdministration.pdb
+C:\Users\steve\Documents\Visual Studio 2013\Projects\HospitalAdministration\HospitalAdministration\bin\HospitalAdministration.dll.config
+C:\Users\steve\Documents\Visual Studio 2013\Projects\HospitalAdministration\HospitalAdministration\bin\HospitalAdministration.dll
+C:\Users\steve\Documents\Visual Studio 2013\Projects\HospitalAdministration\HospitalAdministration\bin\HospitalAdministration.pdb
+C:\Users\steve\Documents\Visual Studio 2013\Projects\HospitalAdministration\HospitalAdministration\obj\Debug\HospitalAdministration.dll
+C:\Users\steve\Documents\Visual Studio 2013\Projects\HospitalAdministration\HospitalAdministration\obj\Debug\HospitalAdministration.pdb
+C:\Users\steve\Documents\Visual Studio 2013\Projects\HospitalAdministration\HospitalAdministration\obj\Debug\HospitalAdministration.csprojResolveAssemblyReference.cache

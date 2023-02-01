@@ -1,0 +1,37 @@
+﻿
+.left 
+{
+    /*vertical-align: middle;
+    width: 70%;*/
+    color: white;
+    
+    text-align: center;
+    font-size:large;
+}
+
+.cleft 
+{
+    width: 70%;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    font-size:large;
+}
+
+.centerBtn {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#section {
+    /*background-image: url("ImageHome/4.png");*/
+    backface-visibility: visible;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    width:1330px;
+    background-color:whitesmoke;
+    height:800px;
+    /*opacity: 0.4;
+     filter: alpha(opacity=60);*/
+}
+

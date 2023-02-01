@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="HospitalAdministration.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      
+        <link href="StyleSheet1.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div>
+            <img src="Images/download.png" style="width: 285px; height: 191px" /><h1 style="height: 44px; width: 616px; margin-left: 408px; margin-top: 2px; margin-bottom: 1px"> Healthcare Management Portal</h1>
+        &nbsp;</div>
+
+        <div>
+            <asp:Menu ID="Menu1" runat="server" BackColor="#0099FF" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Height="42px" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="16px" Width="100%" CssClass="text-align: center;">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Login" Value="Login"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/ContactUS.aspx" Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/AboutUS.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#0066FF" Height="42px" />
+            </asp:Menu>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <br /> <br />
+       <footer>
+<h4>© 2017 Apollo Hospitals Enterprise Ltd. All Rights Reserved. </h4>
+       </footer>
+
+
+   
+    </form>
+</body>
+</html>
